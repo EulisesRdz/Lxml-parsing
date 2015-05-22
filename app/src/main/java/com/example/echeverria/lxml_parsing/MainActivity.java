@@ -19,7 +19,7 @@ import android.widget.TextView;
 public class MainActivity extends ListActivity {
 
     // All static variables
-    static final String URL = "http://eulisesrdz.net84.net/App/bbdd.xml";
+    static final String URL = "http://eulisesrdz.260mb.net/android/bbdd.xml";
     // XML node keys
     static final String KEY_CONTACTO = "contacto"; // parent node
     static final String KEY_ID_A = "id_A";

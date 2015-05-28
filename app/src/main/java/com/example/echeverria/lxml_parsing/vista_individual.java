@@ -22,10 +22,10 @@ public class vista_individual  extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.vista_individual);
 
-        // getting intent data
+        //Obteniendo datos de la actividad
         Intent in = getIntent();
 
-        // Get XML values from previous intent
+        //Obtiene los datos XML de la actividad previa
         String id_a = in.getStringExtra(KEY_ID_A);
         String nombre = in.getStringExtra(KEY_NOMBRE);
         String apellidop = in.getStringExtra(KEY_APELLIDOP);
@@ -34,7 +34,7 @@ public class vista_individual  extends Activity {
         String telefono = in.getStringExtra(KEY_TELEFONO);
         String edad = in.getStringExtra(KEY_EDAD);
 
-        // Displaying all values on the screen
+        //Viendo todos los valores en la pantalla
         TextView lblid = (TextView) findViewById(R.id.txtid);
         TextView lblnombre = (TextView) findViewById(R.id.txtnombre);
         TextView lblapellidop = (TextView) findViewById(R.id.txtapllidop);
